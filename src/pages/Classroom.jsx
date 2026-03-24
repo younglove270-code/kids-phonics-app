@@ -1,10 +1,10 @@
 import { useState, useCallback, useRef } from "react";
-import LetterSelector from "../components/classroom/LetterSelector";
-import LetterCanvas from "../components/classroom/LetterCanvas";
-import CelebrationOverlay from "../components/classroom/CelebrationOverlay";
-import LetterProgress from "../components/classroom/LetterProgress";
-import { gradeDrawing } from "../utils/gradeCanvas";
-import { speakLetter, speakResult, PHONICS } from "../utils/phonics";
+import LetterSelector from "../components/classroom/LetterSelector.jsx";
+import LetterCanvas from "../components/classroom/LetterCanvas.jsx";
+import CelebrationOverlay from "../components/classroom/CelebrationOverlay.jsx";
+import LetterProgress from "../components/classroom/LetterProgress.jsx";
+import { gradeDrawing } from "../utils/gradeCanvas.js";
+import { speakLetter, speakResult, PHONICS } from "../utils/phonics.js";
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const BG_IMAGE = "https://media.base44.com/images/public/69c29b6ba4f1963e90202b13/b01444a69_generated_image.png";

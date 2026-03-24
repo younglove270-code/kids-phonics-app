@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 讓字體更圓潤可愛，適合小朋友 */
+* {
+  font-family: 'Nunito', sans-serif;
+}

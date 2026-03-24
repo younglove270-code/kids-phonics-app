@@ -1,5 +1,5 @@
 import { useRef, useEffect, useCallback, useImperativeHandle, forwardRef } from "react";
-import CapybaraSVG from "./CapybaraSVG";
+import CapybaraSVG from "./CapybaraSVG.jsx";
 
 const LetterCanvas = forwardRef(function LetterCanvas({ letter, resetKey }, ref) {
   const canvasRef = useRef(null);

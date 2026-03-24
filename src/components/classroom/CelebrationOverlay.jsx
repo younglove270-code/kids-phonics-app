@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import CapybaraSVG from "./CapybaraSVG";
+import CapybaraSVG from "./CapybaraSVG.jsx";
 import { PHONICS } from "../../utils/phonics";
 
 const GRADE_CONFIG = {

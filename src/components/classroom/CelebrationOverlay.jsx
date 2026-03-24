@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import CapybaraSVG from "./CapybaraSVG.jsx";
-import { PHONICS } from "../../utils/phonics";
+import { PHONICS } from "../../utils/phonics.js";
 
 const GRADE_CONFIG = {
   "A+":              { label: "A+",       color: "#FF7043", shadow: "#FFE0B2", message: "寫得太漂亮了！水豚君為你歡呼！🍊", emoji: ["🍊","⭐","✨","🎉","🌸","🌟"] },
